@@ -1,6 +1,3 @@
-z-api-crx
-=========
-
 Chrome extension for using Z API.
 
 ## Summary
@@ -91,5 +88,5 @@ Code must be written as a Google Chrome Extension.
 
 ## Notes
 
-* Please read [instructions](https://github.com/properius/projects/wiki/Working-on-projects) about working on this project.
+* Please read [instructions](https://github.com/properius/projects) about working on this project.
 
