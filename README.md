@@ -2,7 +2,7 @@ Chrome extension for using Z API.
 
 ## Summary
 
-The product is a Chrome extension. Its purpose is to search for occurrences of text in the displayed page. Searching is done using Regex expression.
+Purpose of this Chrome extension is to search for occurrences of text in a displayed page. Searching is done using Regex expression.
 
 If search was successful, the found text is marked with an `<a>` tag. Another `<span>` tag is added after the marked text. It is hidden by default (`display:none`). It contains html text returned from an API. This API is not part of this product. The product only calls the API and uses its return values to markup the text on the current page.
 
