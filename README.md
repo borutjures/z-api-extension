@@ -1,6 +1,5 @@
 Chrome extension for using Z API.
 
-test
 
 ## Summary
 
