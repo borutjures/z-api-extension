@@ -1,5 +1,7 @@
 Chrome extension for using Z API.
 
+test
+
 ## Summary
 
 Purpose of this Chrome extension is to search for occurrences of text in a displayed page. Searching is done using Regex expression.
