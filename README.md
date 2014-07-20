@@ -167,6 +167,8 @@ Notes
 * Please read [instructions](https://github.com/properius/projects) about working on this project.
 
 
+********************************************************************************
+
 Deleted sections
 ================
 
