@@ -1,10 +1,10 @@
-Chrome extension for using Z API.
+Browser extension for using Z API.
 
 
 Summary
 -------
 
-Purpose of this Chrome extension is to search for occurrences of text in a displayed page. 
+Purpose of this browser extension is to search for occurrences of text in a displayed page. 
 Searching is done using a regex expression.
 
 If search was successful, the found text is marked with an `<a>` tag. 
@@ -159,6 +159,9 @@ You may choose JavaScript or Dart as the programming language for this extension
 Dart is preferred and will be valued higher.
 
 Code must be written as a Google Chrome Extension.
+
+If you can also develop the same extension for Firefox and IE, include them too 
+in your application.
 
 
 Notes
