@@ -23,6 +23,9 @@ regular expression inside the `<body>`. Regular expression must be declared as a
 
 ## ~~Send matches to the API~~
 
+> bj; 2014-07-20; Matches are not sent to the API. They are marked and only the ones that a user selects
+are sent to the API for further processing.
+
 The extension must make sure that the array of matched text contains only unique texts.
 
 The unique list of matched text is sent asynchronously to the API as a JSON object using `HTTP POST` request.
