@@ -21,7 +21,7 @@ regular expression inside the `<body>`. Regular expression must be declared as a
 * Regular expression description: match all Dart or JavaScript occurrences; use case insensitive search
 * Test page: http://en.wikipedia.org/wiki/DartLang
 
-~~## Send matches to the API~~
+## ~~Send matches to the API~~
 
 The extension must make sure that the array of matched text contains only unique texts.
 
