@@ -1,7 +1,8 @@
 Chrome extension for using Z API.
 
 
-## Summary
+Summary
+-------
 
 Purpose of this Chrome extension is to search for occurrences of text in a displayed page. 
 Searching is done using a regex expression.
@@ -13,9 +14,11 @@ Extension communicates with an API. This API is not part of this product.
 The product only calls the API and uses its return values.
 
 
-# Functional Specifications
+Functional Specifications
+=========================
 
-## Search and markup text
+Search and markup text
+----------------------
 
 After a page is displayed in the browser, the extension searches for text inside 
 the `<body>` that matches regular expression. Regular expression must be declared as a constant.
@@ -43,7 +46,8 @@ are two same texts on the page, each must get its own sequence number.
 Where `--FOUND-TEXT--` is text found with the regular expression.
 
 
-## Show/Hide marked text
+Show/Hide marked text
+---------------------
 
 The found text is marked with a HTML which contains a `<span>` tag with `display:none`. 
 It also contains an `<a>` tag that calls a JavaScript function `fold()`. 
@@ -73,7 +77,8 @@ function fold(flr, idx) {
 ```
 
 
-## Login
+Login
+-----
 
 Users must login before using the extension. After the extension is installed, 
 the user is asked to enter his email. User's email is stored as a setting in local 
@@ -106,7 +111,8 @@ If an error message is returned, cookie is not stored. Error message is displaye
 to the user. User may try to login again after reading/confirming the error message.
 
 
-## Settings page
+Settings page
+-------------
 
 The extension uses a settings page. It displays:
 
@@ -116,7 +122,8 @@ Extension stores settings in local storage. When the settings page is displayed,
 data is read from the local storage and displayed.
 
 
-## Privileges
+Privileges
+----------
 
 The extension must use as few privileges as possible. 
 
@@ -124,7 +131,8 @@ Privilege to browse/read data for a current page displayed in the browser from
 any domain must be included.
 
 
-## Using CSS
+CSS
+---
 
 Marked text in the browser must use CSS specified by the extension.
 
@@ -144,7 +152,8 @@ span.fld{
 ```
 
 
-## Technologies used
+Technologies used
+-----------------
 
 You may choose JavaScript or Dart as the programming language for this extension. 
 Dart is preferred and will be valued higher.
@@ -152,12 +161,14 @@ Dart is preferred and will be valued higher.
 Code must be written as a Google Chrome Extension.
 
 
-## Notes
+Notes
+-----
 
 * Please read [instructions](https://github.com/properius/projects) about working on this project.
 
 
-# Deleted sections
+Deleted sections
+================
 
 Text below this point is not part of the specifications. It is kept here for 
 reference only.
